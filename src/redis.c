@@ -62,6 +62,9 @@
 #include <pthread.h>
 #endif
 
+/* Å×½ºÆ® */
+
+
 /* Our shared "common" objects */
 
 struct sharedObjectsStruct shared;
@@ -74,7 +77,7 @@ double R_Zero, R_PosInf, R_NegInf, R_Nan;
 
 /*================================= Globals ================================= */
 
-/* Global vars */
+/* Global vars */ 
 struct redisServer server; /* server global state */
 struct redisCommand *commandTable;
 struct redisCommand readonlyCommandTable[] = {
